@@ -1,8 +1,11 @@
 package aulaJava;
 
 public class JavaBasico {
-
+	
+	/*Main é um método auto executavel em Java*/
 	public static void main(String[] args) {
+
+		/* para resultados diferentes mudar esses valores */
 
 		int nota1 = 70;
 		int nota2 = 70;
@@ -13,7 +16,7 @@ public class JavaBasico {
 
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 
-/*-------------------------------------------------------------------------------------------------*/
+		/*-------------------------------------------------------------------------------------------------*/
 		/* Condições Lógicas com IF e ELSE */
 
 		if (media >= 70) {
@@ -25,7 +28,7 @@ public class JavaBasico {
 
 		}
 		System.out.println("----------------------------------------------------------------");
-/*------------------------------------------------------------------------------------------------*/
+		/*------------------------------------------------------------------------------------------------*/
 		/* Operadores ternários são para micro validações */
 
 		String saidaResultado = media >= 70 ? "Aluno Aprovado"
@@ -47,12 +50,10 @@ public class JavaBasico {
 			System.out.println("Aluno reprovado direto");
 		}
 		System.out.println("----------------------------------------------------------------");
-	
 
-	
-/*---------------------------------------------------------------------------------------------*/
-	/*Swith CASE: Operações exatas*/
-	
+		/*---------------------------------------------------------------------------------------------*/
+		/* Swith CASE: Operações exatas */
+
 		switch (dia) {
 		case 1:
 			System.out.println("Domingo");
@@ -63,15 +64,14 @@ public class JavaBasico {
 		case 3:
 			System.out.println("Terça-Feira");
 			break;
-			
-			
-		default : System.out.println("Outro dia qualquer");
+
+		default:
+			System.out.println("Outro dia qualquer");
 			break;
 		}
-		
+
 		System.out.println("----------------------------------------------------------------");
-/*------------------------------------------------------------------------------------------------*/
-		
-		
+		/*------------------------------------------------------------------------------------------------*/
+
 	}
 }
